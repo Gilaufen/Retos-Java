@@ -1,0 +1,140 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #F0E6EF;
+}
+
+#title{
+    background-color: #EFC3E6;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /*font style*/
+    font-size: 200%;
+    font-family: 'Mali', cursive;
+    text-align: center;
+}
+
+#title h1{
+    color: #796894;
+}
+
+#figuras{
+    height: 100%;
+    width: 100%;
+    /*flexbox style*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+#figuras div{
+    width: 20%;
+    background-color: white;
+    margin: 5% 2px;
+    padding: 2%;
+    border-radius: 10% 2%;
+    font-size: 120%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #796894;
+    font-family: 'Mali', cursive;
+    font-size: 170%;
+}
+
+img{
+    width: 100%;
+}
+
+/*FIGURAS*/
+
+#datos{
+    width: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 25%;
+    margin-right: 15%;
+    margin-top: 5%;
+    background-color: #796894;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    align-items: center;
+}
+
+#datos input{
+    font-size: 200%;
+    margin-bottom: 5%;
+    border: 1px solid #EFC3E6;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Mali', cursive;
+}
+
+#datos button{
+    margin-top: 5%;
+    width: 50%;
+    padding: 3%;
+    background-color: #F0E6EF;
+    border-radius: 10px;
+    color: #796894;
+    font-size: 170%;
+    font-family: 'Mali', cursive;
+    border: none;
+}
+
+#datos button:hover{
+    background-color: #F0A6CA;
+    cursor: pointer;
+}
+
+
+
+/*Resultado área*/
+h1{
+    color: white;
+}
+
+@media screen and (max-width:1200px) {
+    #title{
+        font-size: 150%;
+    }
+    #figuras div{
+        width: 40%;
+    }
+    #datos{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    #figuras div{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width:900px){
+    #datos{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    #datos input{
+        font-size: 150%;
+    }
+}
